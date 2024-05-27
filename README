@@ -1,0 +1,27 @@
+# Mi Banco
+
+Este proyecto es una aplicación Node.js que se conecta a una base de datos PostgreSQL para gestionar transacciones bancarias. La aplicación permite registrar transferencias, consultar las últimas 10 transferencias de una cuenta específica y consultar el saldo de una cuenta.
+
+## Requisitos
+
+- Node.js
+- PostgreSQL
+
+## Instalación
+
+1. Clona el repositorio:
+
+   ```sh
+   git clone https://github.com/tu_usuario/mi-banco.git
+   cd mi-banco
+
+2. Instala las dependencias:
+
+```sh
+npm install
+
+## Uso
+    Para utilizar la aplicación, ejecuta los siguientes comandos en la terminal:
+
+    Registrar una Transferencia
+    node index.js registrar "Descripción de la transferencia" "AAAA-MM-DD" monto cuenta_origen cuenta_destino
