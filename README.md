@@ -24,16 +24,16 @@ Este proyecto es una aplicación Node.js que se conecta a una base de datos Post
 
 Para utilizar la aplicación, ejecuta los siguientes comandos en la terminal:
 
-Registrar una Transferencia
-    ```sh
+Registrar una Transferencia:
+    
     node index.js registrar "Descripción de la transferencia" "AAAA-MM-DD" monto cuenta_origen cuenta_destino
 
-Consultar Últimas 10 Transferencias`
-    ```sh
+Consultar Últimas 10 Transferencias:
+   
     node index.js consultar cuenta_id
 
-Consultar Saldo
-    ```sh
+Consultar Saldo:
+    
     node index.js saldo cuenta_id
 
 ## Estructura del Proyecto
