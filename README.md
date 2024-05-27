@@ -17,35 +17,36 @@ Este proyecto es una aplicación Node.js que se conecta a una base de datos Post
 
 2. Instala las dependencias:
 
-```sh
-npm install
+    ```sh
+    npm install
 
 ## Uso
 
 Para utilizar la aplicación, ejecuta los siguientes comandos en la terminal:
 
     Registrar una Transferencia
-    ``sh
+    ```sh
     node index.js registrar "Descripción de la transferencia" "AAAA-MM-DD" monto cuenta_origen cuenta_destino
 
     Consultar Últimas 10 Transferencias`
-    ``sh
+    ```sh
     node index.js consultar cuenta_id
 
     Consultar Saldo
-    ``sh
+    ```sh
     node index.js saldo cuenta_id
 
 ## Estructura del Proyecto
+
 db.js: Configuración de la conexión a la base de datos.
 transferencias.js: Funciones para registrar y consultar transferencias.
 cuentas.js: Función para consultar el saldo de una cuenta.
 index.js: Archivo principal que maneja los argumentos de la línea de comando y ejecuta las funciones correspondientes.
 
-##Licencia
+## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
-##Contribuciones
+## Contribuciones
 Las contribuciones son bienvenidas. Para contribuir, por favor sigue estos pasos:
 
 Haz un fork del repositorio.
@@ -54,5 +55,5 @@ Realiza tus cambios y haz commits (git commit -m 'Añadir nueva funcionalidad').
 Sube tu rama (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request.
 
-##Contacto
+## Contacto
 Si tienes alguna pregunta o sugerencia, por favor contacta a Juan Zúñiga.
